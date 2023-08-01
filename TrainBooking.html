@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Train Booking</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="train-booking-top-wrap">
+    <div class="nav-bar-outer ">
+        <div class="nav-bar-inner-left">
+            <h2 id="health-care-heading" style="color:darkblue;">Travel Sri Lanka</h2>
+        </div>
+        <div class="nav-bar-inner-right">
+            <div class="dropdown home-contact">
+                <a href="Home.html"><button class="button">Home</button></a>
+            </div>
+            <div class="dropdown" id="dropdown-4">
+                <a href="TrainBooking.html"><button class="button">Book a Train</button></a>
+            </div>
+            <div class="dropdown" id="dropdown-1">
+                <a href="Tourists%20Attractions.html"><button class="button">Tourists Attractions</button></a>
+                <div class="dropdown-content">
+                    <a href="Tourists%20Attractions.html#historical-Places">Historical Places</a>
+                    <a href="Tourists%20Attractions.html#Nature-wildlife">Nature & Wilde Life</a>
+                    <a href="Tourists%20Attractions.html#sports-activities">Sports & Activities</a>
+                </div>
+            </div>
+            <div class="dropdown" id="dropdown-2">
+                <a href="Accommodation.html"><button class="button">Accommodation</button></a>
+                <div class="dropdown-content">
+                    <a href="Accommodation.html#stared-hotels">Star Class Hotels</a>
+                    <a href="Accommodation.html#Resorts">Tourism Resorts</a>
+                    <a href="Accommodation.html#other">Other Hotels</a>
+                </div>
+            </div>
+            <div class="dropdown" id="dropdown-3">
+                <a href="FoodAndRestaurants.html"><button class="button">Food & Restaurants</button></a>
+                <div class="dropdown-content">
+                    <a href="FoodAndRestaurants.html#SriLankanFood">Sri Lankan Food</a>
+                    <a href="FoodAndRestaurants.html#restaurants">Restaurants</a>
+                </div>
+            </div>
+            <div class="dropdown home-contact">
+                <a href="Home.html#contact-us"><button class="button">Contact</button></a>
+            </div>
+
+        </div>
+    </div>
+    <img src="asserts/sigiriya.jpg" alt="train-booking-background-image">
+    <div class="train-booking-inner">
+        <div class="train-booking-inner-one">
+            <h1 style="font-size: 40px; color: darkred">Want to book a Train?</h1>
+        </div>
+        <br><br>
+        <div class="train-booking-inner-two">
+            <form action="train-booking.php">
+                <table class="t-book">
+                    <tr>
+                        <td>
+                            <lable>From :</lable>  &nbsp;
+                            <select name="from" id="destinationStart">
+                                <option value="Maradana"> Maradana</option>
+                                <option value="Walpola"> Walpola</option>
+                                <option value="Ganemulla"> Ganemulla</option>
+                                <option value="Ganegoda"> Ganegoda</option>
+                                <option value="Mihirigama"> Mihirigama</option>
+                                <option value="Alawwa"> Alawwa</option>
+                                <option value="Rosella"> Rosella</option>
+                                <option value="Hatton"> Hatton</option>
+                                <option value="Kotagala"> Kotagala</option>
+                                <option value="Talawakele"> Talawakele</option>
+                                <option value="Ambewela"> Ambewela</option>
+                                <option value="Ohiya"> Ohiya</option>
+                                <option value="Bandarawela"> Bandarawela</option>
+                                <option value="Elle"> Elle</option>
+                                <option value="Demodara"> Demodara</option>
+                                <option value="Badulla"> Badulla</option>
+                                <option value="Kandy"> Kandy</option>
+                                <option value="Katugastota"> Katugastota</option>
+                                <option value="Ukuwela"> Ukuwela</option>
+                                <option value="Matale"> Matale</option>
+                                <option value="Abanpola"> Abanpola</option>
+                                <option value="Talawa"> Talawa</option>
+                                <option value="Vavuniya"> Vavuniya</option>
+                                <option value="Omantai"> Omantai</option>
+                                <option value="Kollupitiya"> Kollupitiya</option>
+                                <option value="Rathmalana"> Rathmalana</option>
+                                <option value="Kaluthara South"> Kaluthara South</option>
+                                <option value="Hikkaduwa"> Hikkaduwa</option>
+                                <option value="Galle"> Galle</option>
+                                <option value="Ahangama"> Ahangama</option>
+                                <option value="Mirissa"> Mirissa</option>
+                                <option value="Matara"> Matara</option>
+                                <option value="Koggala"> Koggala</option>
+                                <option value="Unawatuna"> Unawatuna</option>
+                                <option value="Habaraduwa"> Habaraduwa</option>
+                            </select>
+                        </td>
+                        <td>
+                            <lable>To :</lable> &nbsp;
+                            <select name="from" id="destinationEnd">
+                                <option value="Maradana"> Maradana</option>
+                                <option value="Walpola"> Walpola</option>
+                                <option value="Ganemulla"> Ganemulla</option>
+                                <option value="Ganegoda"> Ganegoda</option>
+                                <option value="Mihirigama"> Mihirigama</option>
+                                <option value="Alawwa"> Alawwa</option>
+                                <option value="Rosella"> Rosella</option>
+                                <option value="Hatton"> Hatton</option>
+                                <option value="Kotagala"> Kotagala</option>
+                                <option value="Talawakele"> Talawakele</option>
+                                <option value="Ambewela"> Ambewela</option>
+                                <option value="Ohiya"> Ohiya</option>
+                                <option value="Bandarawela"> Bandarawela</option>
+                                <option value="Elle"> Elle</option>
+                                <option value="Demodara"> Demodara</option>
+                                <option value="Badulla"> Badulla</option>
+                                <option value="Kandy"> Kandy</option>
+                                <option value="Katugastota"> Katugastota</option>
+                                <option value="Ukuwela"> Ukuwela</option>
+                                <option value="Matale"> Matale</option>
+                                <option value="Abanpola"> Abanpola</option>
+                                <option value="Talawa"> Talawa</option>
+                                <option value="Vavuniya"> Vavuniya</option>
+                                <option value="Omantai"> Omantai</option>
+                                <option value="Kollupitiya"> Kollupitiya</option>
+                                <option value="Rathmalana"> Rathmalana</option>
+                                <option value="Kaluthara South"> Kaluthara South</option>
+                                <option value="Hikkaduwa"> Hikkaduwa</option>
+                                <option value="Galle"> Galle</option>
+                                <option value="Ahangama"> Ahangama</option>
+                                <option value="Mirissa"> Mirissa</option>
+                                <option value="Matara"> Matara</option>
+                                <option value="Koggala"> Koggala</option>
+                                <option value="Unawatuna"> Unawatuna</option>
+                                <option value="Habaraduwa"> Habaraduwa</option>
+
+                            </select>
+                        </td>
+                        <td>
+                            <lable>Number of seats :</lable> &nbsp;
+                            <input type="number" name="number-of-passengers" min="1" max="50">
+                        </td>
+                        <td>
+                            <lable>Date :</lable>
+                            <input type="date" id="day" name="day">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" style="text-align: center">
+                            <input type="submit" name="book-now" value="Book Now"
+                                   style="background-color: darkred;
+                                   color: floralwhite";>
+                            &nbsp;&nbsp;&nbsp;
+                            <input type="reset" name="cancel" value="Cancel"
+                                   style="background-color: darkred;
+                                   color: floralwhite">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="train-booking-second-wrap">
+<div class="train-booking-gallery">
+    <div class="gallery-topic">
+        <h1 style="font-size: 40px; color: darkblue">Gallery</h1>
+    </div>
+    <br><br>
+    <div class="gallery-one gallery">
+        <div class="image">
+            <img src="asserts/one.jpg" alt="one">
+        </div>
+        <div class="image">
+            <img src="asserts/two.jpg" alt="two">
+        </div>
+        <div class="image">
+            <img src="asserts/three.jpg" alt="three">
+        </div>
+        <div class="image">
+            <img src="asserts/four.jpg" alt="four">
+        </div>
+        <div class="image">
+            <img src="asserts/five.jpg" alt="five">
+        </div>
+    </div>
+    <br><br>
+    <div class="gallery-two gallery">
+        <div class="image">
+            <img src="asserts/six.jpg" alt="six">
+        </div>
+        <div class="image">
+            <img src="asserts/seven.jpg" alt="seven">
+        </div>
+        <div class="image">
+            <img src="asserts/eight.jpg" alt="eight">
+        </div>
+        <div class="image">
+            <img src="asserts/nine.jpg" alt="nine">
+        </div>
+    </div>
+    <br><br>
+    <div class="gallery-one gallery">
+        <div class="image">
+            <img src="asserts/ten.jpg" alt="ten">
+        </div>
+        <div class="image">
+            <img src="asserts/eleven.jpg" alt="eleven">
+        </div>
+        <div class="image">
+            <img src="asserts/twelve.jpg" alt="twelve">
+        </div>
+        <div class="image">
+            <img src="asserts/thirteen.jpg" alt="thirteen">
+        </div>
+        <div class="image">
+            <img src="asserts/fourteen.jpg" alt="fourteen">
+        </div>
+    </div>
+    <br><br>
+    <div class="gallery-two gallery">
+        <div class="image">
+            <img src="asserts/fifteen.jpg" alt="fifteen">
+        </div>
+        <div class="image">
+            <img src="asserts/sixteen.jpg" alt="sixteen">
+        </div>
+        <div class="image">
+            <img src="asserts/seventeen.jpg" alt="seventeen">
+        </div>
+        <div class="image">
+            <img src="asserts/eighteen.jpg" alt="eighteen">
+        </div>
+    </div>
+    <br><br>
+    <div class="gallery-one gallery">
+        <div class="image">
+            <img src="asserts/nineteen.jpg" alt="nineteen">
+        </div>
+        <div class="image">
+            <img src="asserts/twenty.jpg" alt="twenty">
+        </div>
+        <div class="image">
+            <img src="asserts/twentyone.jpg" alt="twentyone">
+        </div>
+        <div class="image">
+            <img src="asserts/twentytwo.jpg" alt="twentytwo">
+        </div>
+        <div class="image">
+            <img src="asserts/twentythree.jpg" alt="twentythree">
+        </div>
+    </div>
+</div>
+</div>
+<div class="sub-footer"></div>
+</body>
+</html>
